@@ -1,0 +1,4 @@
+.user-suggestions {
+  max-height: 300px;
+  overflow-y: scroll;
+}

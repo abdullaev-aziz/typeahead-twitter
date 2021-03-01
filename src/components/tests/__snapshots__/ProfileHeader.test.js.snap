@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileHeader matches snapshot of ProfileHeader component 1`] = `
+<div
+  className="profile-header"
+>
+  <img
+    alt="profile-image"
+    src="http://pbs.twimg.com/profile_images/625697856330952709/3dynAKiy_normal.png"
+  />
+  <span
+    className="name"
+  >
+    Sprout Social
+  </span>
+  <span>
+    @
+    SproutSocial
+  </span>
+</div>
+`;

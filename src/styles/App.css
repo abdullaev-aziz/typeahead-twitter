@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  font-family: "Helvetica", "Helvetica Neue", "Segoe UI";
+  box-sizing: border-box;
+}

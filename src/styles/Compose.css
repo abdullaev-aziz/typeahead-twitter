@@ -1,0 +1,9 @@
+.compose {
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: dashed black 1px;
+}

@@ -1,0 +1,20 @@
+.profile-header {
+  background: rgba(119, 174, 233, 0.364);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  max-width: 600px;
+  margin: auto;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.profile-header .name {
+  font-weight: bold;
+}
+
+.profile-header span {
+  display: inline-block;
+  padding: 5px;
+}

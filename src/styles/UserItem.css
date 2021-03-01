@@ -1,0 +1,31 @@
+.user-item {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  max-width: 600px;
+  margin: auto;
+  padding: 5px;
+}
+
+.user-item .screen-name {
+  font-weight: bold;
+}
+
+.user-item span {
+  display: inline-block;
+  padding: 5px;
+}
+
+.user-item .verified {
+  position: absolute;
+  right: 5px;
+  font-weight: bold;
+  color: rgb(75, 75, 75);
+}
+
+.user-item.selected,
+.user-item:hover {
+  background-color: rgba(43, 146, 225, 0.866);
+}
