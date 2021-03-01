@@ -1,3 +1,6 @@
+#Twitter Typeahead
+Twitter ComposeBox with typeahead feature, autocomplete username will be triggered on @
+
 Node v12.18.4
 npm 6.14.6
 "react": "^17.0.1",
