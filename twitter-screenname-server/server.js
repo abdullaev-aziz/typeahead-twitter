@@ -1,14 +1,15 @@
 const Twitter = require('twitter');
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const PORT = 4000;
+const PORT = process.env.PORT || 5000;
 
 const client = new Twitter({
-	consumer_key: 'fx95oKhMHYgytSBmiAqQ',
-	consumer_secret: '0zfaijLMWMYTwVosdqFTL3k58JhRjZNxd2q0i9cltls',
-	access_token_key: '2305278770-GGw8dQQg3o5Vqfx9xHpUgJ0CDUe3BoNmUNeWZBg',
-	access_token_secret: 'iEzxeJjEPnyODVcoDYt5MVvrg90Jx2TOetGdNeol6PeYp',
+	consumer_key: process.env.CONSUMER_KEY,
+	consumer_secret: process.env.CONSUMER_SECRET,
+	access_token_key: process.env.ACCESS_TOKEN_KEY,
+	access_token_secret: process.env.ACCESS_TOKEN_SECRET,
 });
 
 // CORS support

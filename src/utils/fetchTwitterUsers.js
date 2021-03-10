@@ -7,6 +7,7 @@ async function fetchTwitterUsers(query) {
       return [];
     }
     const users = await response.json();
+    console.log(users.users)
     return users.users;
   }
 

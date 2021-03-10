@@ -7,6 +7,7 @@
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "lodash": "^4.17.20",
     "react": "^17.0.1",
@@ -16,13 +17,14 @@
     "twitter": "^1.7.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=4000 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "node twitter-screenname-server/server.js",
     "dev": "concurrently --kill-others \"npm start\" \"npm run server\""
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
