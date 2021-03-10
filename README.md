@@ -1,12 +1,13 @@
 # Twitter Typeahead
+
+![alt text](https://github.com/abdullaev-aziz/typeahead-twitter/blob/main/pics/typeahead.jpg "Title")
+
 Twitter ComposeBox with typeahead feature, autocomplete username will be triggered on @
 Cancel Changes
 Node v12.18.4
 npm 6.14.6
 "react": "^17.0.1",
 "react-dom": "^17.0.1"
-
-![alt text](https://github.com/abdullaev-aziz/typeahead-twitter/blob/main/pics/typeahead.jpg "Title")
 
 
 Components Structure:
